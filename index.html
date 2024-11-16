@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Web Page</title>
+    
+    <!-- Content Security Policy Meta Tag -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://vercel.live;">
+    
+    <!-- Link to a CSS file or other resources if needed -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to My Secure Web Page</h1>
+    <p>This is an example page with a Content Security Policy in place.</p>
+
+    <!-- Example script that should be allowed under the CSP -->
+    <script>
+        console.log("This script runs from 'self'");
+    </script>
+</body>
+</html>
