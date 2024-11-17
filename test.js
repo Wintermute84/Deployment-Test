@@ -1,6 +1,6 @@
 async function test() {
   try {
-    let response = await fetch('https://deployment-test-pink.vercel.app/home');
+    let response = await fetch('/home');
     let data = await response.json();
     console.log(data);
   } catch (error) {
